@@ -1,0 +1,5 @@
+def count_words(s):
+    words = [word for word in s.split() if word]
+    return len(words)
+text = "Hello,my name is John  "
+print(count_words(text))
